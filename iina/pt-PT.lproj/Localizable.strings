@@ -1,0 +1,263 @@
+/* 
+  String_ui.strings
+  iina
+
+  Created by lhc on 3/1/2017.
+  Copyright © 2017 lhc. All rights reserved.
+*/
+
+// Common
+"general.on" = "Ligar";
+"general.off" = "Desligar";
+"general.login" = "Entrar";
+"general.logout" = "Sair";
+"general.ok" = "OK";
+"general.cancel" = "Cancelar";
+"general.username" = "Nome Utilizador";
+"general.password" = "Palavra-Passe";
+
+// PlaylistViewController.swift
+"playlist.playlist_cap" = "LISTA";
+"playlist.chapter_cap" = "CAPÍTULOS";
+
+// MainWindowController.swift
+"main.buffering_indicator" = "Buffering... %d%%";
+
+// QuickSettingViewController.swift
+"quicksetting.item_default" = "Por Omissão";
+"quicksetting.item_none" = "Nenhum";
+
+// OSDMessage.swift
+"osd.pause" = "Pausa";
+"osd.resume" = "Reproduzir";
+"osd.volume" = "Volume: %i";
+"osd.speed" = "Velocidade: %.2fx";
+"osd.aspect" = "Proporção: %@";
+"osd.crop" = "Corte: %@";
+"osd.rotate" = "Rodar: %i°";
+"osd.deinterlace" = "Desentrelaçar: %@";
+"osd.audio_delay.nodelay" = "Atraso Áudio: Sem Atraso";
+"osd.audio_delay.later" = "Atraso Áudio: %.2fs Atrasado";
+"osd.audio_delay.earlier" = "Atraso Áudio: %.2fs Adiantado";
+"osd.sub_delay.nodelay" = "Atraso Legenda: Sem Atraso";
+"osd.sub_delay.later" = "Atraso Legenda: %.2fs Atrasada";
+"osd.sub_delay.earlier" = "Atraso Legenda: %.2fs Adiantada";
+"osd.subtitle_pos" = "Posição Legenda: %.1f";
+"osd.mute" = "Sem Áudio";
+"osd.unmute" = "Restaurar Áudio";
+"osd.screenshot" = "Ecrã Capturado";
+"osd.abloop.a" = "AB-Loop: A";
+"osd.abloop.b" = "AB-Loop: B";
+"osd.abloop.clear" = "AB-Loop: Removido";
+"osd.stop" = "Parar";
+"osd.chapter" = "Capítulo: %@";
+"osd.subtitle_scale" = "Escala Legenda: %.2fx";
+"osd.add_to_playlist" = "Adicionados %i Ficheiros à Lista";
+"osd.clear_playlist" = "Lista Limpa";
+"osd.video_eq.contrast" = "Contraste: %i";
+"osd.video_eq.gamma" = "Gamma: %i";
+"osd.video_eq.hue" = "Tonalidade: %i";
+"osd.video_eq.saturation" = "Saturação: %i";
+"osd.video_eq.brightness" = "Brilho: %i";
+"osd.find_online_sub" = "A procurar legendas online...";
+"osd.sub_not_found" = "Não foram encontradas legendas";
+"osd.sub_found" = "Foram encontradas %d legendas. A realizar o download...";
+"osd.sub_downloaded" = "Legenda Obtida";
+"osd.sub_saved" = "Legenda Guardada";
+"osd.network_error" = "Erro de Rede";
+"osd.file_error" = "Erro ao lear o ficheiro";
+"osd.cannot_login" = "Não foi possível entrar";
+"osd.canceled" = "Cancelado";
+"osd.filter_added" = "Adicionado Filtro: %@";
+"osd.filter_removed" = "Filtro Removido";
+
+"preference.title" = "Preferências";
+"preference.general" = "Geral";
+"preference.ui" = "UI";
+"preference.codec" = "Codec";
+"preference.subtitle" = "Legenda";
+"preference.network" = "Rede";
+"preference.control" = "Controlo";
+"preference.keybindings" = "Key Bindings";
+"preference.advanced" = "Avançado";
+"preference.scripts" = "Scripts";
+"preference.not_logged_in" = "Não entrou ainda na sua conta";
+"preference.logged_in_as" = "Entrou na conta como %@";
+"preference.system_media_control" = "Utilizar controlos do sistema";
+
+"menu.volume"= "Volume: %d";
+"menu.audio_delay" = "Atraso Áudio: %.2fs";
+"menu.sub_delay" = "Atraso Legenda: %.2fs";
+"menu.fullscreen" = "Entrar em modo Ecrã Completo";
+"menu.exit_fullscreen" = "Sair modo Ecrã Completo";
+"menu.pip" = "Entrar Picture-in-Picture";
+"menu.exit_pip" = "Sair Picture-in-Picture";
+"menu.pause" = "Pausa";
+"menu.resume" = "Reproduzir";
+"menu.speed" = "Velocidade: %.2fx";
+
+"menu.seek_forward" = "Avançar %.0fs";
+"menu.seek_backward" = "Retroceder %.0fs";
+"menu.speed_up" = "Acelerar %.1fx";
+"menu.speed_down" = "Reduzir to %.1fx";
+"menu.volume_up" = "Volume + %.0f%%";
+"menu.volume_down" = "Volume - %.0f%%";
+"menu.audio_delay_up" = "Atrasar Áudio + %.1fs";
+"menu.audio_delay_down" = "Atrasar Áudio - %.1fs";
+"menu.sub_delay_up" = "Atrasar Legenda + %.1fs";
+"menu.sub_delay_down" = "Atrasar Legenda - %.1fs";
+
+"track.none" = "<Nenhum>";
+
+"subtrack.no_loaded" = "Sem Legendas Carregadas";
+"subtrack.no_external" = "Não Foram Encontradas Legendas Externas";
+
+// Alerts
+"alert.beta_channel.title" = "Receber actualizações para versões Beta";
+"alert.beta_channel.message" = "IINA v1.0 está quase pronta! Queres ajudar-nos a testar as versões beta? \n\nPodes alterar esta definição a qualquer momento em Preferências - Geral.";
+
+"alert.title_error" = "Erro";
+"alert.title_warning" = "Aviso";
+"alert.title_info" = "Informação";
+
+"alert.fatal_error" = "Erro Crítico: %@ \nA aplicação vai terminar AGORA.";
+"alert.mpv_error" = "Erro Interno %@ (%@) ao selecionar a opção %@.";
+"alert.sleep" = "Não foi possível prevenir o ecrã de desligar!";
+
+"alert.unsupported_audio" = "Ficheiro de áudio externo não suportado.";
+"alert.unsupported_sub" = "Legenda externa não suportada.";
+"alert.unsupported_url" = "URL não suportado.";
+"alert.wrong_url_format" = "Formato URL errado.";
+
+"alert.error_open" = "Não foi possível abrir o ficheiro ou o stream!";
+"alert.error_finding_file" = "Não foi possível encontrar o ficheiro %@!";
+"alert.error_loading_script" = "Não foi possível carregar o script %@!";
+"alert.error_saving_file" = "Ocorreu um erro ao gravar %@: %@";
+"alert.error_deleting_file" = "Não é possível apagar o ficheiro.";
+
+"alert.config.new.title" = "Nova Configuração Input";
+"alert.config.new.message" = "Por favor insira o nome para a nova configuração.";
+"alert.config.duplicate.title" = "Duplicar Configuração";
+"alert.config.duplicate.message" = "Por favor insira o nome para o ficheiro de configuração duplicado.";
+"alert.config.empty_name" = "Tem que inserir pelo menos 1 caracter.";
+"alert.config.name_existing" = "Esse nome já se encontrar a ser utilizado.";
+"alert.config.file_existing.title" = "Ficheiro Já Existe";
+"alert.config.file_existing.message" = "Selecione OK para substituir, Cancelar para abrir o Finder.";
+"alert.config.cannot_create" = "Não foi possível criar o ficheiro de configuração!";
+"alert.config.cannot_write" = "Não foi possível guardar o ficheiro de configuração!";
+
+"alert.filter.incorrect" = "Ocorreu um erro ao selecionar os filtros, verifique o formato do seu parâmetro.";
+"alert.add_filter.title" = "Novo Filtro";
+"alert.add_filter.message" = "Por favor insira texto no formato do comando vf ou af do MPV.";
+
+"alert.keybinding_config.error" = "Erro ao ler o ficheiro de configuração \"%@\"! A utilizar a configuração por omissão. Verifique a sua configuração.";
+
+"alert.extra_option.cannot_read" = "Não foi possível ler as opções extra definidas por o utilizador.";
+"alert.extra_option.empty" = "Este valor/chave não pode estar vazio!";
+"alert.extra_option.error" = "Erro ao selecionar a opção --%@=%@ com o valor %d. Por favor verifique as suas configurações em Preferências > Avançado";
+"alert.extra_option.config_folder" = "Erro ao selecionar a pasta de configuração \"%@\".";
+
+"alert.playlist.error_deleting" = "Erro ao apagar: %@";
+
+"alert.sub.no_selected" = "Por favor selecione uma legenda obtida primeiro.";
+"alert.sub_lang_not_set" = "Por favor selecione a/s linguagem/ns preferida/s antes de utilizar OpenSubtitles. Será utilizado Inglês(eng) desta vez.";
+"alert.sub.cannot_save_passwd" = "Não foi possível guardar a palavra-passe na Keychain: %@";
+"alert.sub.cannot_login" = "Não foi possível entrar. Por favor verifique o seu nome de utilizador, palavra-passe e estado da rede.\n\n%@";
+
+"alert.set_default.title" = "Selecionar IINA como aplicação padrão";
+"alert.set_default.message" = "IINA será selecionada como aplicação padrão para todos os tipos de ficheiro suportados.";
+"alert.set_default.success" = "Terminado com %d successos and %d insucessos.";
+
+"alert.add_watch.title" = "Adicionar propridade Watch";
+"alert.add_watch.message" = "Por favor insira um nome de propriedade MPV válido.";
+
+"alert.jump_to.title" = "Saltar para";
+"alert.jump_to.message" = "Por favor insira o tempo para o qual pretende saltar. Exemplo: 20:35";
+
+"alert.opensub.login.title" = "OpenSubtitles Login";
+"alert.opensub.login.message" = "Por favor insira o nome de utilizador e palavra-passe";
+
+"alert.open_url.title" = "Abrir URL";
+"alert.open_url.message" = "Por favor insira o URL:";
+"alert.choose_media_file.title" = "Selecionar Ficheiro";
+
+"alert.add_url.title" = "Adicionar URL";
+"alert.add_url.message" = "Por favor insira o URL:";
+
+"alert.delete_history.title" = "Apagar histórico";
+"alert.delete_history.message" = "Pretende apagar as entradas selecionadas?";
+
+"alert.filter_hwdec.message" = "Está prestar a aplicar um filtro de vídeo, contudo o seu descodificador actual (hardware) pode não ter suporte para filtros de vídeo.Pode desactivar a descodificação em hardware ou alterar para Auto(Cópia) que irá consumir o dobro de memória.\n Pode ser necessário repetir as alterações já realizadas (como corte ou rotações).";
+"alert.filter_hwdec.abort" = "Abortar";
+"alert.filter_hwdec.turn_off" = "Desligar descodificação por hardware";
+"alert.filter_hwdec.use_copy" = "Alterar para Auto(Cópia)";
+
+"alert.clear_cache.title" = "Limpar Cache Miniaturas";
+"alert.clear_cache.message" = "Tem a certeza que pretende limpar a cache de miniaturas?";
+"alert.clear_cache.success" = "Cache limpa.";
+
+"alert.nothing_to_open" = "Nada para abrir.";
+
+"alert.no_video_track" = "Não existe uma faixa de vídeo.";
+
+"alert.duplicate_config" = "Não é possível modificar as configurações por omissão directamente. Crie um duplicado antes de editar";
+
+"alert.assrt_register" = "Devido a limitações no número de acessos à API é recomendado que utilize o seu próprio token. O token por omissão é apenas para demonstração e poderá não funcionar sempre.";
+"alert.assrt_register.register" = "Registar Agora";
+"alert.assrt_register.try" = "Experimentar";
+"alert.assrt_token_prompt.title" = "Introduza o token API";
+"alert.assrt_token_prompt.message" = "Por favor registe-se na página aberta. Obtenha o seu token na sua página de utilizador e insira-o:";
+"alert.assrt_token_invalid" = "O seu token Assrt API não é válido.";
+
+"pl_menu.title_multi" = "%d Itens";
+"pl_menu.play_next" = "Reproduzir Próximo";
+"pl_menu.play_in_new_window" = "Reproduzir em Nova Janela";
+"pl_menu.remove" = "Remover";
+"pl_menu.remove_multi" = "Remover Selecionados";
+"pl_menu.delete" = "Colocar no Lixo";
+"pl_menu.delete_multi" = "Colocar Ficheiros Selecionados no Lixo";
+"pl_menu.delete_after_play" = "Colocar no Lixo Após Reprodução";
+"pl_menu.delete_after_play_multi" = "Colocar Ficheiros Seleccionados no Lixo Após Reprodução";
+"pl_menu.reveal_in_finder" = "Mostrar no Finder";
+"pl_menu.add_file" = "Adicionar Ficheiro…";
+"pl_menu.add_url" = "Adicionar URL…";
+"pl_menu.clear_playlist" = "Limpar Playlist";
+"pl_menu.matched_sub" = "%d Legenda(s) Disponível/is";
+"pl_menu.add_sub" = "Adicionar Legenda…";
+"pl_menu.wrong_sub" = "Legenda Errada!";
+
+"keymapping.title" = "Key Mapping";
+"keymapping.message" = "Pressionar qualquer tecla para gravar.";
+
+"filter.video_filters" = "Filtros Vídeo";
+"filter.audio_filters" = "Filtros Áudio";
+
+"hwdec.no" = "Desactivar Descodificação Hardware.";
+"hwdec.auto" = "Activar Descodificação Hardware. É possível que a maioria dos filtros não funcione correctamente.";
+"hwdec.auto-copy" = "Activar Descodificação Hardware. Irá consumir o dobro de memória mas funciona correctamente com filtros de vídeo.";
+
+"subencoding.auto" = "Detectar Automaticamente";
+
+"osc_toolbar.settings" = "Configuração Rápida";
+"osc_toolbar.playlist" = "Playlist e capítulos";
+"osc_toolbar.pip" = "Activar/Desactivar Picture-in-Picture";
+"osc_toolbar.full_screen" = "Entrar/Sair modo Ecrã Completo";
+"osc_toolbar.music_mode" = "Entrar em modo música";
+"osc_toolbar.sub_track" = "Selecionar legenda";
+
+// Touch bar
+
+"touchbar.ahead_15" = "Avançar 15s";
+"touchbar.ahead_30" = "Avançar 30s";
+"touchbar.back_15" = "Retroceder 15s";
+"touchbar.back_30" = "Retroceder 30s";
+"touchbar.next_video" = "Próximo Vídeo";
+"touchbar.prev_video" = "Vídeo Anterior";
+"touchbar.increase_volume" = "Volume +";
+"touchbar.decrease_volume" = "Volume -";
+"touchbar.rewind" = "Rebobinar";
+"touchbar.fast_forward" = "Avançar";
+"touchbar.play_pause" = "Reproduzir / Pausa";
+"touchbar.seek" = "Procurar";
+"touchbar.time" = "Tempo";
+"touchbar.remainingTime" = "Tempo Restante";
